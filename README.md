@@ -4,6 +4,8 @@ Fell free to star an original Waifu2x repo: https://github.com/nagadomi/waifu2x
 
 To convert file - just send a multipart upload body to POST /convert  and receive the file.
 
-Example API is here:  https://waifurun-64l7ehzjta-ue.a.run.app/
+Example API is here:  https://waifurun-64l7ehzjta-ue.a.run.app/ 
+
+**Warning** - conversion using CPU is really slow. It will take ~250 seconds to convert FullHD into 4K image.
 
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/gladkikhartem/waifurun.git)
